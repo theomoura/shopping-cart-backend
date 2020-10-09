@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { TasksModule } from './tasks/tasks.module';
+import { ProductsModule } from './products/products.module';
 
 import { RedisModule } from './redis/redis.module';
 import { initMongo } from './mongo/mongo.initialization';
@@ -12,7 +12,7 @@ import { ApiModule } from './api/api.module';
 @Module({
   imports: [
     initMongo(),
-    TasksModule,
+    ProductsModule,
     CacheModule,
     MemoryCacheModule,
     RedisModule,
