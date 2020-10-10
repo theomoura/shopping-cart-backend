@@ -2,6 +2,8 @@
 
 Backend for shopping cart funcionality.
 
+This project was built using [This React boilerplate project](https://github.com/theomoura/node-nest-starter-kit)
+
 ## Installation
 
 ```bash
